@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--Aca vamos a agregar el logotipo y nombre de la página-->
+        <img src="Imagenes/white_logo_dark_background.jpg" alt="logotipo" width="300" height="200">
+        <img src="Imagenes/CrossFit.png" alt="Logo CrossFit" width="800" height="200">
+        <img src="Imagenes/Crosspesa.png" alt="Logo Pesa CrossFit" width="300" height="200">
+        <h1>CrossFit</h1>
+        <H1>Rutinas</H1>
+    </header>
+    <nav>
+        <!--Vamos a colocar aca las diferentes secciones de navegación de la pág Inicio, nuestra historia, productos, historias compartidas (lista UL en linea)-->
+        <ul>
+            <li>Inicio</li>
+            <li>Nuestra historia</li>
+            <li>Rutinas</li>
+            <li>Competencias Internacionales</li>
+        </ul>
+
+        <!-- Agregamos un video con explicación de qué es crossfit-->
+        <iframe 
+            width="1296" height="729" 
+            src="https://www.youtube.com/embed/FVlX5ZAxEUk" 
+            title="Introducción al CROSSFIT - ¿Qué es y por qué es tan popular?" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+    </nav>
+    <main>
+        <!-- Agregamos los productos en venta, como entrenamiento dia 1,...,dia 7-->
+         <h2>Rutinas</h2>
+         
+            <ul><h3>Pack 1</h3>
+                <img src="Imagenes/Cross3.jpeg" alt="Rutina día 1" width="400 " height="300">
+                <ul> Calentamiento - 4 Rondas:
+                    <li>Plak 30'</li>
+                    <li>15 Hollow Rock</li>
+                    <li>20 Amercian Swing</li>
+                    <li>20 PushUp</li>
+                </ul>
+
+                <ul> Trabajo de habilidad/fuerza - DeadLift:
+                    <li>4 X 10rep - 50%</li>
+                    <li>3 X 6rep - 70%</li>
+                    <li>3 X 4rep 85%</li>
+
+                </ul>
+
+                <ul> Entrenamiento Principal del Día (WOD) - 5 Rondas Time Cap 12':
+                        <li>50DU/ 100SS</li>
+                        <li>10 Power Clean - 50kg/40Kg</li>
+                        <li>Double Kb 14mts - 40kg/20kg</li>
+                        <li>10 Burpees To Bar</li>
+                </ul>
+
+                <ul> Estiramientos:
+                    <li>Trabajo de elongación 10 minutos</li>
+                </ul>
+            </ul>
+        
+         
+            <ul><h3>Pack 2</h3>
+                <img src="Imagenes/Cross2.jpeg" alt="Rutina día 2" width="400 " height="300">
+                <ul> Calentamiento - 4 Rondas:
+                    <li>Plak 30'</li>
+                    <li>15 Hollow Rock</li>
+                    <li>20 Amercian Swing</li>
+                    <li>20 PushUp</li>
+                </ul>
+
+                <ul> Trabajo de habilidad/fuerza - DeadLift:
+                    <li>4 X 10rep - 50%</li>
+                    <li>3 X 6rep - 70%</li>
+                    <li>3 X 4rep 85%</li>
+
+                </ul>
+
+                <ul> Entrenamiento Principal del Día (WOD) - 5 Rondas Time Cap 12':
+                        <li>50DU/ 100SS</li>
+                        <li>10 Power Clean - 50kg/40Kg</li>
+                        <li>Double Kb 14mts - 40kg/20kg</li>
+                        <li>10 Burpees To Bar</li>
+                </ul>
+
+                <ul> Estiramientos:
+                    <li>Trabajo de elongación 10 minutos</li>
+                </ul>
+            </ul>
+         
+
+    </main>
+    <Article>
+        <!--Algo interesante como qué siginica CrossFit, o competencias grandes-->
+        <h3>Alimentación recomendada para evento deportivo.</h3>
+        <p>Para la alimentación en competiciones de alto rendimiento, la clave es una dieta equilibrada que proporcione energía, hidratos de carbono, proteínas y líquidos. Se recomienda consumir alimentos ricos en carbohidratos antes de la competencia, moderar las proteínas y evitar grasas. 
+        </p>
+        <p>Durante la competencia, es importante mantenerse hidratado y consumir bebidas con electrolitos, especialmente en deportes de resistencia o en climas cálidos. Después de la competencia, la recuperación incluye la reposición de líquidos y electrolitos, y la ingesta de proteínas para reparar los músculos.</p>
+      
+        <video controls poster="" muted width="800" height="600">
+            <source 
+                src="Videos/AlimentacionCrossfit.mp4" 
+                type="video/mp4"
+            >
+            <track
+                src="Videos/videoalimentacion.vtt"
+                kind="subtitles"
+                srclang="es"
+                label="Español"
+            
+            >
+     
+        
+           
+            Tu Navegador no soporta la reproducción de video
+
+        </video>
+    </Article>
+    <section>
+        <!--En el pie vamos a agregar como nos pueden contactar, donde nos encontramos(Googlemaps, y mandarnos algun formulario -->
+    </section>
+    <footer>
+        <h2>Contactanos</h2>
+        <!-- formiularios de consulta e iconos nuestras redes sociales)-->
+         <!--Preguntar al profe como hacer para que se actualicen los campos cuando se haya enviado el form, queda con los datos antiguos.-->
+         <form action="https://formspree.io/f/xkgjdaqk" method="post">
+            <div>
+                <Label for="nombnre">Nombre</Label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Escribe tu nombre" required>
+            </div>
+            <div>
+                <Label for="nombnre">Apellido</Label>
+                <input type="text" name="Apellido" id="Apellido" placeholder="Escribe tu Apellido" required>
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Escribe tu email" required>
+            </div>
+            <div>
+                <label for="Teléfono">Teléfono</label>
+                <input type="number" name="Teléfono" id="Teléfono" placeholder="Escribe tu número de Teléfono">
+            </div>
+            <div>
+                <label for="Mensaje">Mensaje</label>
+                <textarea name="Mensaje" id="Mensaje" rows="5" cols="50">Escribe tu Mensaje </textarea>
+   
+            </div>
+            <div>
+                <input type="submit" name="Enviar" id="Enviar"> 
+            </div>
+
+
+
+
+         </form>
+
+        
+     
+    </footer>
+    </body>
+</html>
