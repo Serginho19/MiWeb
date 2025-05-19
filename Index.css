@@ -1,0 +1,88 @@
+ header,main,section,article,footer{
+    border: 2px dotted;
+    margin: 1cm;
+    padding: 20px;
+    
+
+}
+
+header div{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-bottom: 3rem;
+    background-color: black;
+}
+header nav{
+    width: 100%;
+}
+header div ul{
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;    
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    
+}
+
+body{
+    
+    background-color:#000000;
+    color: white;
+    width: 95vw;
+    height: 50vh;
+  
+    
+    
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 384;
+    font-style: normal;
+  
+}
+main{
+    
+    margin-bottom: 3rem;
+
+
+}
+main div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0px;
+   flex-wrap: wrap;
+}
+
+
+.Rutinas{
+    color: red;
+    background-color: aqua;
+
+}
+
+#lista{
+    list-style: none;
+   
+}
+#lienlinea{
+    display: inline;
+    font-size:x-large;
+    letter-spacing: 0.2em;
+}
+form{
+        
+    color: blanchedalmond;
+}
+.naranja{
+    background-color: rgb(255, 165, 0);
+}
+h4{
+    background-color: #000000;
+    
+}
